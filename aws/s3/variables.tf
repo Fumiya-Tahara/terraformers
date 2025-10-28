@@ -7,3 +7,7 @@ variable "aws_region" {
   description = "AWS region"
   default = "ap-northeast-1"
 }
+variable "aws_bucket_name" {
+  type = string
+  description = "AWS S3 bucket name"
+}
